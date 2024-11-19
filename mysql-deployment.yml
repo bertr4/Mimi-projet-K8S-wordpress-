@@ -6,7 +6,7 @@ metadata:
     app: wordpress
   namespace: wordpress
 spec:
-  replicas: 1
+  replicas: 2
   selector:
     matchlabels:
       app: wordpress    
